@@ -1,0 +1,6 @@
+create database posts;
+create table mensagem (
+id int(12) primary key auto_increment,
+nome varchar(50),
+mensagem varchar(150)
+);
